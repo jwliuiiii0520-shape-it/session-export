@@ -1,6 +1,8 @@
 # Session Export
 
-[中文](README.md) | **English**
+<p align="center">
+  <a href="./README.md">中文</a> · English
+</p>
 
 Turn a Codex conversation into a clean, readable archive before it disappears
 into your session list.
@@ -199,4 +201,3 @@ and asks you to configure a vault explicitly.
 ## License
 
 MIT
-

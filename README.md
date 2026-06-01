@@ -1,6 +1,8 @@
 # Session Export
 
-**中文** | [English](README_EN.md)
+<p align="center">
+  中文 · <a href="./README_EN.md">English</a>
+</p>
 
 在 Codex 会话被淹没在历史列表之前，把它保存为清晰、可搜索、方便回看的归档。
 
@@ -193,4 +195,3 @@ SESSION_EXPORT_OBSIDIAN_SUBDIR="AI/Codex Sessions" \
 ## License
 
 MIT
-
