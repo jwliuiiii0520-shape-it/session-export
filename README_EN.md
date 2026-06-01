@@ -4,21 +4,26 @@
   <a href="./README.md">中文</a> · English
 </p>
 
-Turn a Codex conversation into a clean, readable archive before it disappears
-into your session list.
+Some Codex sessions are more than temporary chats.
 
-`session-export` is a Codex skill and local Python utility that exports Codex
-transcripts as Markdown, PDF, or Obsidian notes. It keeps the useful parts of a
-session, leaves internal prompts out, and adds a short summary plus the saved
-file paths at the top.
+They may contain a complete investigation, the reasoning behind an important
+decision, reusable prompts, or the full context of a project from diagnosis to
+implementation. Leaving them in a session list makes them hard to find and
+awkward to revisit later.
+
+`session-export` saves important Codex conversations as Markdown, PDF, or
+Obsidian notes. The result is not just a short summary. It is a readable
+long-term archive of the full conversation: user messages, Codex responses,
+and a compact tool-call summary, with internal prompts excluded by default.
 
 ## Why Use It?
 
-- Archive the conversation you are working in with one command.
-- Keep a searchable Markdown history of useful Codex sessions.
-- Save important sessions directly into Obsidian with `se-obsi`.
-- Generate a readable PDF when you want to share or review a session offline.
-- Include tool details only when you explicitly need an audit trail.
+- **Review the full conversation:** revisit the analysis process, not only the final answer.
+- **Build a knowledge base:** keep valuable sessions searchable as Markdown instead of losing them in a history list.
+- **Preserve project context:** save key discussions, decisions, and implementation history for future handoffs.
+- **Archive to Obsidian:** type `se-obsi` to save the active conversation into your personal knowledge base.
+- **Read or share offline:** generate a clean PDF when a session deserves a durable copy.
+- **Audit when needed:** include tool details only when you explicitly request them.
 
 ## Install
 
