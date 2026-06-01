@@ -1,0 +1,4 @@
+interface:
+  display_name: "Session Export"
+  short_description: "Export Codex session conversations to readable Markdown and PDF."
+  default_prompt: "Export the current Codex session as readable Markdown and PDF."
